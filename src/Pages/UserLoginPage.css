@@ -1,0 +1,14 @@
+.cascading-right {
+  margin-left: -50px;
+}
+
+@media (max-width: 900px) {
+  .cascading-right {
+    margin-right: 0;
+  }
+}
+.gradient_background {
+  background: linear-gradient(90deg, #a8e6ed, #e4d6fedb);
+  height: 100%;
+  width: 100%;
+}

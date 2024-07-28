@@ -1,0 +1,26 @@
+.ContainerText{
+    display: flex;
+  justify-content: center;
+}
+ .resizable-textarea {
+    resize: both;
+    overflow: auto;
+    width: calc(50% - 10px); /* Adjust width to create a gap between textareas */
+    border: 1px solid rgb(52, 49, 49);
+    border-radius: 8px; /* Rounded border */
+    margin-right: 20px;
+    margin-bottom: 10px; /* Adjust the gap between textareas */
+  }
+  
+  .resizable-textarea:last-child {
+    margin-right: 0; /* Remove right margin for the last textarea */
+  }
+  
+  .resizable-textarea textarea {
+    width: 100%;
+    height: 4rem;
+    border: none;
+    padding: 4px;
+    resize: none; /* Disable textarea resize (handled by wrapper div) */
+  }
+  
